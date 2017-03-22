@@ -35,11 +35,6 @@ colorscheme torte
 autocmd BufNewFile,BufRead *.c,*.cpp,*.h,*.hpp,*.cc,*.hh,*.java,*.js,*.html,*.tex,*.spl,*.scala,*.xml,*.less,*.css,*.m,*.py set expandtab autoindent tabstop=2 shiftwidth=2 softtabstop=2 
 autocmd BufNewFile,BufRead *.tex,*.md set tw=80
 set showtabline=1
-nmap <F12> :NERDTreeToggle<CR>
-nmap <F11> :tab new<CR>
-nmap <F10> :FufFile
-nmap <C-n> :tabn<CR>
-nmap <C-p> :tabp<CR>
 " for ctrlp
 let g:ctrlp_map = '<c-p>'
 set backupdir=~/.vim/backupfiles,.

@@ -17,3 +17,12 @@ Project  'C:/work/IoTCloud/Graph Analytics/code/graphservice', 'graph_service'
 Project  'C:/work/IoTCloud/Acoustic Analytics/demo/devicecomputing', 'devicecomputing'
 Project  'C:/Code/caffe', 'caffe'
 "====================================================
+
+
+" key mappings
+nmap <F12> :NERDTreeToggle<CR>
+nmap <F11> :tab new<CR>
+nmap <F10> :FufFile
+nmap <C-n> :tabn<CR>
+nmap <C-p> :tabp<CR>
+
